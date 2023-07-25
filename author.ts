@@ -29,17 +29,17 @@ export const author: Author = {
       url: 'https://qiita.com/shitake4',
       rss: {url: 'https://qiita.com/shitake4/feed'}
     },
-    {name: 'wantedly', userName: "shitake4", url: 'https://medium.com/@shitake4'},
-    {name: 'linkedin', userName: "shitake4", url: 'https://medium.com/@shitake4'},
-    {name: 'instagram', userName: "shitake4", url: 'https://medium.com/@shitake4'},
-    {name: 'facebook', userName: "shitake4", url: 'https://medium.com/@shitake4'},
-    {name: 'youtube', userName: "shitake4", url: 'https://medium.com/@shitake4'},
-    {name: 'pixiv', userName: "shitake4", url: 'https://medium.com/@shitake4'},
     {
       name: 'hatenablog',
       userName: "shitake4",
       url: 'https://blog.shitake4.tech',
       rss: {url: 'https://blog.shitake4.tech/feed?size=100'}
     },
+    {name: 'wantedly', userName: "", url: 'https://www.wantedly.com/'},
+    {name: 'linkedin', userName: "", url: 'https://www.linkedin.com/'},
+    {name: 'instagram', userName: "", url: 'https://www.instagram.com/'},
+    {name: 'facebook', userName: "", url: 'https://www.facebook.com/'},
+    {name: 'youtube', userName: "", url: 'https://www.youtube.com/'},
+    {name: 'pixiv', userName: "", url: 'https://www.pixiv.net/'},
   ],
 };
