@@ -1,6 +1,9 @@
 # My Post Hub
 ![GitHub package.json version (branch)](https://img.shields.io/github/package-json/v/shitake4/shitake4.github.io/main)
-![Packagist License (custom server)](https://img.shields.io/packagist/l/shitake4/my-post-hub)
+![GitHub](https://img.shields.io/github/license/shitake4/my-post-hub)
+![GitHub commit activity (branch)](https://img.shields.io/github/commit-activity/t/shitake4/my-post-hub)
+![GitHub last commit (branch)](https://img.shields.io/github/last-commit/shitake4/my-post-hub/main)
+
 
 ![john_doe-Post-Hub](https://github.com/shitake4/my-post-hub/assets/8196476/9e55b413-b553-4639-8ebe-2e85486aec85)
 
