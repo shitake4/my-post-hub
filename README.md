@@ -25,8 +25,8 @@ $ yarn dev
 ```
 
 ### Deploy
-#### Github Pages
-- [Creating a GitHub Pages site - GitHub Docs](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site) などを参照し、Github Pagesを作成してください。
+#### GitHub Pages
+- [テンプレートからリポジトリを作成する - GitHub Docs](https://docs.github.com/ja/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template#about-repository-templates) を参考に `<user>.github.io` リポジトリを作成してください。
 
 - branchへのpush時または、AM1:00に自動でデプロイされます。
 
@@ -52,13 +52,13 @@ on:
 ### SNSを表示する
 ![john_doe-Post-Hub (1)](https://github.com/shitake4/my-post-hub/assets/8196476/d3a36eaa-81f7-445c-ae99-a143056f66e9)
 
-`author.rs`
 ```ts
 export const author: Author = {
 ...
   webServices: [
     {name: 'github', userName: "shitake4", url: 'https://github.com/shitake4'},
 ...
+}
 ```
 `author.ts` に追加することでプロフィール下のSNSサイトへのアイコンリンクが表示されます。
 
