@@ -1,9 +1,10 @@
 # My Post Hub
 ![GitHub package.json version (branch)](https://img.shields.io/github/package-json/v/shitake4/shitake4.github.io/main)
+![Packagist License (custom server)](https://img.shields.io/packagist/l/shitake4/my-post-hub)
+
 ![john_doe-Post-Hub](https://github.com/shitake4/my-post-hub/assets/8196476/9e55b413-b553-4639-8ebe-2e85486aec85)
 
-Zenn、Qiita、Medium、note、はてなブログなどに投稿した記事を一覧にまとめて表示します。  
-ポートフォリオサイトとして使うことができます。
+ポートフォリオサイトとしてZenn、Qiita、Medium、note、はてなブログなどに投稿した記事をRSSで取得し一覧にまとめて表示します。
 
 こちらをForkして、作成しました。
 
@@ -19,6 +20,7 @@ $ yarn dev
 
 ## Usage
 
+### RSSの取得
 以下より、RSSフィードを提供しています。
 - https://{domain}/feed.xml
 - https://{domain}/feed.json
@@ -26,7 +28,7 @@ $ yarn dev
 
 
 ### SNSを表示する
-- `author.ts` に追加することでプロフィール下のSNSサイトへのアイコンリンクが表示されます。
+![john_doe-Post-Hub (1)](https://github.com/shitake4/my-post-hub/assets/8196476/d3a36eaa-81f7-445c-ae99-a143056f66e9)
 ```ts
 export const author: Author = {
 ...
@@ -34,8 +36,8 @@ export const author: Author = {
     {name: 'github', userName: "shitake4", url: 'https://github.com/shitake4'},
 ...
 ```
-![john_doe-Post-Hub (1)](https://github.com/shitake4/my-post-hub/assets/8196476/d3a36eaa-81f7-445c-ae99-a143056f66e9)
+`author.ts` に追加することでプロフィール下のSNSサイトへのアイコンリンクが表示されます。
 
 
-## Licence
+## License
 - MIT
