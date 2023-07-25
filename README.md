@@ -18,6 +18,22 @@ $ yarn build
 $ yarn dev
 ```
 
+### Deploy
+#### Github Pages
+- [Creating a GitHub Pages site - GitHub Docs](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site) などを参照し、Github Pagesを作成してください。
+
+- branchへのpush時または、AM1:00に自動でデプロイされます。
+
+`.github/workflows/.nextjs.yml`
+```yaml
+on:
+  # Runs on pushes targeting the default branch
+  push:
+  schedule:
+    - cron: '* 1 * * *'
+```
+
+
 ## Usage
 
 ### RSSの取得
@@ -29,6 +45,8 @@ $ yarn dev
 
 ### SNSを表示する
 ![john_doe-Post-Hub (1)](https://github.com/shitake4/my-post-hub/assets/8196476/d3a36eaa-81f7-445c-ae99-a143056f66e9)
+
+`author.rs`
 ```ts
 export const author: Author = {
 ...
