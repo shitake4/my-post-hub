@@ -14,6 +14,9 @@
 - [チーム個々人のテックブログをRSSで集約するサイトを作った →](https://zenn.dev/catnose99/articles/cb72a73368a547756862)
 - [catnose99/team-blog-hub: RSS based blog starter kit for teams](https://github.com/catnose99/team-blog-hub)
 
+## Demo
+- [john_doe Post Hub](https://my-post-hub.vercel.app/)
+
 ## Development
 ```bash
 $ yarn install
