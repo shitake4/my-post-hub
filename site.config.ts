@@ -8,7 +8,7 @@ export const config = {
   },
   siteRoot:
       process.env.NODE_ENV === "production"
-          ? "https://shitake4.tech"
+          ? "https://my-post-hub.vercel.app/"
           : "http://localhost:3000",
   googleTagManagerId: "",
   headerLinks: [
