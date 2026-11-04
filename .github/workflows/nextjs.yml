@@ -5,6 +5,10 @@
 name: Deploy Next.js site to Pages
 
 on:
+  # Validate pull requests targeting the default branch.
+  pull_request:
+    branches:
+      - main
   # Runs on pushes targeting the default branch
   push:
     branches:
@@ -30,9 +34,6 @@ jobs:
   # Build job
   build:
     runs-on: ubuntu-latest
-    environment: github-pages
-    env:
-      BRANCH_NAME: ${{ vars.BRANCH_NAME }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
